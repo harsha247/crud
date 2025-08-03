@@ -1,0 +1,30 @@
+html, body {
+  scroll-behavior: smooth;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  padding: 50px 15px;
+}
+
+.hero {
+  background: url('../images/hero.jpg') no-repeat center center/cover;
+  color: white;
+  text-shadow: 1px 1px 3px black;
+}
+
+footer {
+  background-color: #212529;
+  color: white;
+  padding: 20px 0;
+}
+
+.navbar-nav .nav-link {
+  cursor: pointer;
+}
+
+table td button {
+  min-width: 70px;
+}
